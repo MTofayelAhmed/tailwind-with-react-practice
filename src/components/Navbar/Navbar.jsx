@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <ul>
+            <ul className='md: flex'>
 {
     routes.map(route => <li> {route.name}</li>)
 }
